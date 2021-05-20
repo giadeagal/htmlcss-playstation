@@ -2,6 +2,10 @@
     color: blue;
 }
 
+.background_blue {
+    background-color: blue;
+}
+
 header {
     position: fixed;
     top: 0;
@@ -13,7 +17,7 @@ header {
     min-height: 50px;
     min-width: 20px;
     background-color: red;
-    border:2px dashed indigo
+    border:2px dashed indigo;
 }
 
 #header_top {
@@ -68,5 +72,31 @@ img {
 
 #ps_now {
     background-color: darkblue;
+    color: white;
+}
+
+footer {
+    color: white;
+}
+
+footer img {
+    max-width: 20%;
+}
+
+#footer_top i {
+    margin-right: 10px;
+}
+
+#footer_top ul {
+    list-style-type: none;
+}
+
+ul>li>a {
+    color:white;
+    text-decoration: none;
+}
+
+ul>li>a:hover {
+    text-decoration: underline;
     color: white;
 }
