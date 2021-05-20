@@ -1,3 +1,44 @@
-body {
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+
+.box {
+    min-height: 20px;
+    min-width: 20px;
+    background-color: red;
+    border:2px dashed indigo
+}
+
+#header_top {
+    height: 2rem;
+    width: 100%;
+    background-color: black;
+}
+
+#header_bottom {
+    height: 5rem;
+    width: 100%;
     background-color: hotpink;
+}
+
+#jumbotron {
+    min-height: 30rem;
+    width: 100%;
+    background-image: url(../img/jumbo-bg.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+}
+
+#jumbotron .container {
+    padding-top: 4rem;
+    height: 100%;
+}
+
+#jumbotron img {
+    padding-top: 100%;
+    width: 100%;
 }
