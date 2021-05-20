@@ -100,3 +100,8 @@ ul>li>a:hover {
     text-decoration: underline;
     color: white;
 }
+
+#footer_bottom p>a {
+    color: #fff;
+    text-decoration: underline;
+}
