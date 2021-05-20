@@ -6,7 +6,7 @@ header {
 }
 
 .box {
-    min-height: 20px;
+    min-height: 50px;
     min-width: 20px;
     background-color: red;
     border:2px dashed indigo
@@ -25,7 +25,7 @@ header {
 }
 
 #jumbotron {
-    min-height: 30rem;
+    min-height: 20rem;
     width: 100%;
     background-image: url(../img/jumbo-bg.png);
     background-size: cover;
@@ -34,8 +34,7 @@ header {
 }
 
 #jumbotron .container {
-    padding-top: 4rem;
-    height: 100%;
+    padding-top: 4rem;  
 }
 
 #jumbotron img {
