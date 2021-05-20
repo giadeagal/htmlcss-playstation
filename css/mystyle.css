@@ -57,12 +57,16 @@ img {
     width: 60%;
 }
 
-#ps_plus .btn {
+.btn {
     max-width: 300px;
 }
 
 #ps_plus [class^="col"]:first-of-type {
     display: flex;
     flex-direction: column;
-    justify-content: center;
+}
+
+#ps_now {
+    background-color: darkblue;
+    color: white;
 }
