@@ -1,3 +1,7 @@
+.text_blue {
+    color: blue;
+}
+
 header {
     position: fixed;
     top: 0;
@@ -45,4 +49,20 @@ img {
     width: 100%;
 }
 
-#takes_two
+#ps_plus {
+    background-color: #aaa;
+}
+
+#ps_plus #ps_plus_logo {
+    width: 60%;
+}
+
+#ps_plus .btn {
+    max-width: 300px;
+}
+
+#ps_plus [class^="col"]:first-of-type {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
