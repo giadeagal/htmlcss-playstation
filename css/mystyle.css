@@ -38,16 +38,17 @@ main {
 }
 
 #jumbotron {
-    max-height: 35rem;
+    max-height: 40rem;
     padding-bottom: 200px;
     background-image: url(../img/jumbo-bg.png);
     background-size: cover;
+    background-position: center;
     background-repeat: no-repeat;
     color: white;
 }
 
 #jumbotron img {
-    margin-top: 100px;
+    margin-top: 15rem;
 }
 
 img {
@@ -113,8 +114,16 @@ img {
     width: 60%;
 }
 
+#nuove_uscite {
+    color: white;
+}
+
 #nuove_uscite img {
  border-radius: 20px;
+}
+
+#nuove_uscite img:hover {
+    cursor: pointer;
 }
 
 .btn {
