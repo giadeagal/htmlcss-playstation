@@ -1,9 +1,9 @@
 .text_blue {
-    color: blue;
+    color: #0172ce;
 }
 
 .background_blue {
-    background-color: blue;
+    background-color: #00439c;
 }
 
 header {
@@ -11,6 +11,7 @@ header {
     top: 0;
     left: 0;
     width: 100%;
+    z-index: 90;
 }
 
 .box {
@@ -53,12 +54,67 @@ img {
     width: 100%;
 }
 
+#games img {
+    border-radius: 8px;
+}
+
+#games img:hover {
+    cursor: pointer;
+}
+
+#games img:not([class$="nail"]) {
+    opacity:60%;
+}
+
+#games img:not([class$="nail"]):hover {
+    opacity:100%;
+}
+
+#ps5 h6 {
+    line-height:0;
+}
+
+#ps5 h6,
+#ps5 p {
+    font-size: .75rem;
+}
+
+#ps5 .ms_selected {
+    border-bottom: 2px solid #0072ce;
+}
+
+@media (min-width: 768px) {
+    #ps5 .ms_selected {
+        border:none
+    }
+}
+
+#ps5 img.thumb {
+    cursor:pointer;
+}
+
+#ps5 .ms_selected_md {
+    border-bottom: 2px solid #0072ce;
+}
+
+#ps5 img.thumb:not([class$="selected"]) {
+    opacity: 60%;
+}
+
+#ps5 img.thumb:not([class$="selected"]):hover {
+    opacity:100%;
+}
+
 #ps_plus {
     background-color: #aaa;
 }
 
 #ps_plus #ps_plus_logo {
     width: 60%;
+}
+
+#nuove_uscite img {
+ border-radius: 20px;
 }
 
 .btn {
