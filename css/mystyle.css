@@ -36,16 +36,17 @@ main {
     padding-top: 7rem;
 }
 
-#jumbotron {
-    max-height: 20rem;
+#jumbotron_top {
+    max-height: 35rem;
+    padding-bottom: 200px;
     background-image: url(../img/jumbo-bg.png);
     background-size: cover;
     background-repeat: no-repeat;
     color: white;
 }
 
-#jumbotron img {
-    margin-top: 200px;
+#jumbotron_top img {
+    margin-top: 100px;
 }
 
 img {
