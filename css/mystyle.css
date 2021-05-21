@@ -32,21 +32,20 @@ header {
     background-color: hotpink;
 }
 
+main {
+    padding-top: 7rem;
+}
+
 #jumbotron {
-    min-height: 20rem;
-    width: 100%;
+    max-height: 20rem;
     background-image: url(../img/jumbo-bg.png);
     background-size: cover;
     background-repeat: no-repeat;
     color: white;
 }
 
-#jumbotron .container {
-    padding-top: 4rem;  
-}
-
 #jumbotron img {
-    padding-top: 100%;
+    margin-top: 200px;
 }
 
 img {
