@@ -69,6 +69,17 @@ img {
 
 #games img:not([class$="nail"]):hover {
     opacity:100%;
+    animation: jump 500ms;
+}
+
+@keyframes jump {
+    0% {transform: translateY(0);}
+    15% {transform: translateY(-10px);}
+    30% {transform: translateY(0);}
+    50% {transform: translateY(-5px)}
+    65% {transform: translateY(0);}
+    80% {transform: translateY(-2px)}
+    100% {transform: translateY(0);}
 }
 
 #ps5 h6 {
