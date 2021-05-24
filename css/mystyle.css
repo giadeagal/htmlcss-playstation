@@ -6,6 +6,13 @@
     background-color: #00439c;
 }
 
+.btn.round {
+    border-radius: 20px;
+}
+
+.btn.orange {background-color: orangered;
+border:none; color: white;}
+
 header {
     position: fixed;
     top: 0;
@@ -138,7 +145,10 @@ img {
 }
 
 #takes_two {
+    min-height: 40rem;
+    color: white;
     background-image: url(../img/it-takes-two-hero-banner-desktop.jpg);
+    background-position: center;
 }
 
 #ps_plus {
@@ -173,6 +183,12 @@ img {
 #ps_now {
     background-color: darkblue;
     color: white;
+}
+
+#sconti img:hover,
+#social img:hover {
+    opacity:.5;
+    cursor: pointer;
 }
 
 footer {
