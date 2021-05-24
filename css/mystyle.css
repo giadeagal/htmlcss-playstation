@@ -27,6 +27,11 @@ header {
     background-color: black;
 }
 
+#header_top img {
+    max-height: 2rem;
+    padding: 10px;
+}
+
 #header_bottom {
     height: 5rem;
     width: 100%;
@@ -38,7 +43,7 @@ main {
 }
 
 #jumbotron {
-    max-height: 40rem;
+    max-height: 50rem;
     padding-bottom: 200px;
     background-image: url(../img/jumbo-bg.png);
     background-size: cover;
@@ -115,6 +120,10 @@ img {
 
 #ps5 img.thumb:not([class$="selected"]):hover {
     opacity:100%;
+}
+
+#takes_two {
+    background-image: url(../img/it-takes-two-hero-banner-desktop.jpg);
 }
 
 #ps_plus {
