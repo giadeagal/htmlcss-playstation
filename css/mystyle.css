@@ -33,12 +33,24 @@ header {
 }
 
 #header_bottom {
-    height: 5rem;
+    min-height: 5rem;
     background-color: #f8f9fa;
 }
 
 #header_bottom nav {
     height: 5rem;
+}
+
+#header_bottom nav .btn {
+    margin-right: 10px;
+}
+
+#header_bottom nav i {
+    color: black;
+    font-size: 20px;
+    position: absolute;
+    top:50%;
+    transform: translateY(-50%);
 }
 
 main {
