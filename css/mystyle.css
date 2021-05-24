@@ -29,13 +29,16 @@ header {
 
 #header_top img {
     max-height: 2rem;
-    padding: 10px;
+    padding: 5px;
 }
 
 #header_bottom {
     height: 5rem;
-    width: 100%;
-    background-color: hotpink;
+    background-color: #f8f9fa;
+}
+
+#header_bottom nav {
+    height: 5rem;
 }
 
 main {
